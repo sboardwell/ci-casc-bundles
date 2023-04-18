@@ -1,0 +1,9 @@
+apiVersion: "1"
+id: "base"
+description: "Controller base bundle"
+version: "1"
+availabilityPattern: ".*"
+jcasc:
+  - "jenkins.yaml"
+variables:
+  - "variables.yaml"

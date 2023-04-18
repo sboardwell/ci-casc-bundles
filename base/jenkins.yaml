@@ -1,0 +1,14 @@
+jenkins:
+  systemMessage: "${system_message}"
+  authorizationStrategy: "cloudBeesRoleBasedAccessControl"
+unclassified:
+  headerLabel:
+    text: "CASC EXAMPLE CONTROLLER"
+  buildDiscarders:
+    configuredBuildDiscarders:
+    - "jobBuildDiscarder"
+    - simpleBuildDiscarder:
+        discarder:
+          logRotator:
+            daysToKeepStr: "366"
+            numToKeepStr: "10"

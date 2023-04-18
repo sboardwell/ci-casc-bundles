@@ -1,0 +1,4 @@
+variables:
+  - system_message: Welcome to Cloudbees CI
+  - admin_address: xxx
+  - jenkins_url: localhost
