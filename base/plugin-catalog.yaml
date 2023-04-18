@@ -6,4 +6,4 @@ configurations:
 - description: Exported plugins
   includePlugins:
     cloudbees-prometheus:
-      version: '1.0'
+      version: '1.2'

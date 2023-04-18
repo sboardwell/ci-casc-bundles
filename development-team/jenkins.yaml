@@ -1,3 +1,6 @@
+unclassified:
+  headerLabel:
+    text: "${header_label}"
 kube:
   podTemplatesConfiguration:
     templates:
