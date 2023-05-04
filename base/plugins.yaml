@@ -9,4 +9,3 @@ plugins:
 - id: cloudbees-prometheus
 - id: workflow-multibranch
 - id: git
-- id: code-coverage-api
