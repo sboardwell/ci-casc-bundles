@@ -1,0 +1,15 @@
+jenkins:
+  systemMessage: "${system_message}"
+  authorizationStrategy: "cloudBeesRoleBasedAccessControl"
+unclassified:
+  buildDiscarders:
+    configuredBuildDiscarders:
+    - "jobBuildDiscarder"
+    - simpleBuildDiscarder:
+        discarder:
+          logRotator:
+            daysToKeepStr: "366"
+            numToKeepStr: "10"
+  usageStatisticsCloudBees:
+    disabledJenkinsUsageStatistics: true
+    usageStatisticsCollected: false
