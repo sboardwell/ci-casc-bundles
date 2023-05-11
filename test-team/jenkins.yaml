@@ -1,0 +1,21 @@
+unclassified:
+  headerLabel:
+    text: "${header_label}"
+kube:
+  podTemplatesConfiguration:
+    templates:
+    - containers:
+      - args: "9999999"
+        command: "sleep"
+        image: "debian"
+        name: "debian"
+      name: "debian"
+      nodeUsageMode: "NORMAL"
+      label: "build"
+jenkins:
+  securityRealm:
+    local:
+      allowsSignup: false
+      users:
+        - id: "john"
+          password: "john123"
