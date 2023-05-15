@@ -119,3 +119,4 @@ plugins:
   - id: workflow-multibranch
   - id: ws-cleanup
   - id: cloudbees-slack
+  - id: beer
