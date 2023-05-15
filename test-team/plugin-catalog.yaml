@@ -84,4 +84,4 @@ configurations:
       ws-cleanup:
         version: "0.45"
       beer:
-        version: "34.v27fe279176a_4"
+        version: "42.v776b_04d96de3"
