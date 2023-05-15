@@ -118,3 +118,4 @@ plugins:
   - id: workflow-basic-steps
   - id: workflow-multibranch
   - id: ws-cleanup
+  - id: cloudbees-slack
