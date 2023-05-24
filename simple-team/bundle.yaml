@@ -6,8 +6,6 @@ availabilityPattern: ".*"
 parent: "base-simple"
 jcasc:
   - "jenkins.yaml"
-plugins:
-  - "plugins.yaml"
 items:
   - "items.yaml"
 variables:
