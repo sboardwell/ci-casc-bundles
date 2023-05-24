@@ -3,7 +3,7 @@ id: "development-team"
 description: "Sample development team bundle RBAC from OC"
 version: "1"
 availabilityPattern: ".*"
-parent: "base"
+parent: "base-simple"
 jcasc:
   - "jenkins.yaml"
 plugins:
