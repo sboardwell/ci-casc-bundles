@@ -1,11 +1,9 @@
 type: "plugin-catalog"
 version: "1"
-name: "my-plugin-catalog"
+name: "my-plugin-catalog2"
 displayName: "My Plugin Catalog"
 configurations:
   - description: "These are Non-CAP plugins"
     includePlugins:
-      cloudbees-prometheus:
-        version: "1.2"
-      code-coverage-api:
-        version: "3.5.0"
+      ansicolor:
+        version: "1.0.2"

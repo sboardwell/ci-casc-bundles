@@ -10,6 +10,12 @@ unclassified:
           logRotator:
             daysToKeepStr: "366"
             numToKeepStr: "10"
+  hibernationConfiguration:
+    activities:
+    - "build"
+    - "web"
+    enabled: true
+    gracePeriod: 20000
   usageStatisticsCloudBees:
     disabledJenkinsUsageStatistics: true
     usageStatisticsCollected: false

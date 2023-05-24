@@ -1,5 +1,5 @@
 apiVersion: "1"
-id: "base"
+id: "base-simple"
 description: "Controller base bundle"
 version: "1"
 availabilityPattern: ".*"
