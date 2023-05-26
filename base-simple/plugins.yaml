@@ -3,6 +3,7 @@ plugins:
 - id: cloudbees-casc-items-api
 - id: cloudbees-casc-items-commons
 - id: cloudbees-casc-items-controller
+- id: cloudbees-jenkins-advisor
 - id: configuration-as-code
 - id: saml
 - id: managed-master-hibernation
