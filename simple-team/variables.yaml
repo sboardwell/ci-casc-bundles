@@ -1,2 +1,3 @@
 variables:
   - header_label: Simple Team
+  - admin_address: x@y.com

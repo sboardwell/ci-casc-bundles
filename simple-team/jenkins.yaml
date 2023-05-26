@@ -14,7 +14,7 @@ kube:
       label: "build"
 advisor:
   acceptToS: true
-  email: "x@y.com"
+  email: "${admin_address}"
   excludedComponents:
   - "AgentsSystemConfiguration"
   - "ItemsContent"
