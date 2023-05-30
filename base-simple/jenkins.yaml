@@ -84,7 +84,7 @@ support:
     - "PipelineTimings"
     - "PipelineThreadDump"
     enabled: true
-    period: 2
+    period: 6
 kube:
   podTemplatesConfiguration:
     templates:
