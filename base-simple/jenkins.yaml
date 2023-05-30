@@ -84,7 +84,7 @@ support:
     - "PipelineTimings"
     - "PipelineThreadDump"
     enabled: true
-    period: 6
+    period: 6 # the bundle will automativally run every 6 hours
 kube:
   podTemplatesConfiguration:
     templates:
