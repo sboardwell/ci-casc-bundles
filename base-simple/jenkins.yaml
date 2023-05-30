@@ -19,22 +19,10 @@ unclassified:
   usageStatisticsCloudBees:
     disabledJenkinsUsageStatistics: true
     usageStatisticsCollected: false
-kube:
-  podTemplatesConfiguration:
-    templates:
-    - containers:
-      - args: "9999999"
-        command: "sleep"
-        image: "debian"
-        name: "debian"
-      name: "debian"
-      nodeUsageMode: "NORMAL"
-      label: "build"
 advisor:
   acceptToS: true
   excludedComponents:
   - "AgentsSystemConfiguration"
-  - "ItemsContent"
   - "AgentsJVMProcessSystemMetricsContents"
   - "UserCount"
   - "CustomLogs"
@@ -97,3 +85,14 @@ support:
     - "PipelineThreadDump"
     enabled: true
     period: 2
+kube:
+  podTemplatesConfiguration:
+    templates:
+    - containers:
+      - args: "9999999"
+        command: "sleep"
+        image: "debian"
+        name: "debian"
+      name: "debian"
+      nodeUsageMode: "NORMAL"
+      label: "build"
