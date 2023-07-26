@@ -13,6 +13,7 @@ kube:
       nodeUsageMode: "NORMAL"
       label: "build"
 jenkins:
+  systemMessage: "${system_message}"
   securityRealm:
     local:
       allowsSignup: false
