@@ -7,6 +7,6 @@ plugins:
 - id: configuration-as-code
 - id: saml
 - id: managed-master-hibernation
-- id: cloudbees-prometheus
+- id: prometheus
 - id: workflow-multibranch
 - id: git
