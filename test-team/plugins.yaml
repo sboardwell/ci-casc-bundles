@@ -1,12 +1,14 @@
 plugins:
-- id: cloudbees-casc-client
-- id: cloudbees-casc-items-api
-- id: cloudbees-casc-items-commons
-- id: cloudbees-casc-items-controller
-- id: cloudbees-jenkins-advisor
-- id: configuration-as-code
-- id: saml
-- id: managed-master-hibernation
-- id: prometheus
-- id: workflow-multibranch
-- id: git
+  - id: cloudbees-casc-client # cap lst
+  - id: cloudbees-casc-items-api # cap lst dep
+  - id: cloudbees-casc-items-commons # cap lst dep
+  - id: cloudbees-casc-items-controller # cap lst
+  - id: cloudbees-jenkins-advisor # cap lst
+  - id: configuration-as-code # cap lst
+  - id: git # cap lst
+  - id: junit # cap dep
+  - id: managed-master-hibernation # cap lst
+  - id: pipeline-rest-api # cap dep
+  - id: prometheus # 3rd lst
+  - id: saml # cap lst
+  - id: workflow-multibranch # cap lst
