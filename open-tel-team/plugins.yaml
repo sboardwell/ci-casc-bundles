@@ -1,0 +1,18 @@
+plugins:
+  - id: cloudbees-casc-client # cap lst
+  - id: cloudbees-casc-items-api # cap lst dep
+  - id: cloudbees-casc-items-commons # cap lst dep
+  - id: cloudbees-casc-items-controller # cap lst
+  - id: cloudbees-jenkins-advisor # cap lst
+  - id: configuration-as-code # cap lst
+  - id: git # cap lst
+  - id: junit # cap dep
+  - id: managed-master-hibernation # cap lst
+  - id: opentelemetry # 3rd lst
+  - id: pipeline-build-step # cap dep
+  - id: pipeline-model-definition # cap dep
+  - id: pipeline-rest-api # cap dep
+  - id: prometheus # 3rd lst
+  - id: saml # cap lst
+  - id: workflow-basic-steps # cap dep
+  - id: workflow-multibranch # cap lst dep

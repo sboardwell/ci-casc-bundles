@@ -1,0 +1,13 @@
+type: "plugin-catalog"
+version: "1"
+name: "my-plugin-catalog"
+displayName: "My Plugin Catalog"
+configurations:
+  - description: "These are Non-CAP plugins for version 2.401.3.3"
+    prerequisites:
+      productVersion: "[2.401.3.3]"
+    includePlugins:
+      opentelemetry:
+        version: "2.14.0"
+      prometheus:
+        version: "2.2.3"

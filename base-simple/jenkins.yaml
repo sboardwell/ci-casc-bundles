@@ -44,7 +44,6 @@ support:
   automatedBundleConfiguration:
     componentIds:
     - "CloudBeesAssuranceSupport"
-    - "CloudBeesCasCBundlesSupport"
     - "CloudBeesCasCUpdateLogBundlesSupport"
     - "AgentsConfigFile"
     - "ConfigFileComponent"
@@ -55,7 +54,6 @@ support:
     - "AdministrativeMonitors"
     - "AgentProtocols"
     - "BuildQueue"
-    - "CustomLogs"
     - "DumpExportTable"
     - "EnvironmentVariables"
     - "FileDescriptorLimit"
@@ -64,11 +62,9 @@ support:
     - "MasterJVMProcessSystemMetricsContents"
     - "JenkinsLogs"
     - "LoadStats"
-    - "LoggerManager"
     - "Metrics"
     - "NetworkInterfaces"
     - "NodeMonitors"
-    - "OtherLogs"
     - "ReverseProxy"
     - "RunningBuilds"
     - "SlaveCommandStatistics"
@@ -84,7 +80,7 @@ support:
     - "PipelineTimings"
     - "PipelineThreadDump"
     enabled: true
-    period: 6 # the bundle will automativally run every 6 hours
+    period: 3
 kube:
   podTemplatesConfiguration:
     templates:
