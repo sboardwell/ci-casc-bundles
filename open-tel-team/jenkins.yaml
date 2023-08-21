@@ -20,10 +20,3 @@ kube:
       name: "debian"
       nodeUsageMode: "NORMAL"
       label: "build"
-jenkins:
-  securityRealm:
-    local:
-      allowsSignup: false
-      users:
-        - id: "john"
-          password: "john123"
