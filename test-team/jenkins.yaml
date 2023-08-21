@@ -22,9 +22,3 @@ kube:
       label: "build"
 jenkins:
   systemMessage: "${system_message}"
-  securityRealm:
-    local:
-      allowsSignup: false
-      users:
-        - id: "john"
-          password: "john123"
