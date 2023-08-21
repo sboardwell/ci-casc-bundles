@@ -22,3 +22,6 @@ kube:
       label: "build"
 jenkins:
   systemMessage: "${system_message}"
+advisor:
+  acceptToS: true
+  email: "${mail}"
