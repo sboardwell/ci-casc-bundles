@@ -1,14 +1,6 @@
 unclassified:
   headerLabel:
     text: "${header_label}"
-  openTelemetry:
-    authentication: "noAuthentication"
-    disabledResourceProviders: "io.opentelemetry.sdk.extension.resources.ProcessResourceProvider"
-    endpoint: "http://tempo-distributor.grafana.svc.cluster.local:4317"
-    exportOtelConfigurationAsEnvironmentVariables: false
-    ignoredSteps: "dir,echo,isUnix,pwd,properties"
-    serviceName: "jenkins"
-    serviceNamespace: "jenkins"
 kube:
   podTemplatesConfiguration:
     templates:
