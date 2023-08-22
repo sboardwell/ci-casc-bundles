@@ -9,6 +9,6 @@ plugins:
 #  - id: junit # cap dep
   - id: managed-master-hibernation # cap lst
 #  - id: pipeline-rest-api # cap dep
-  - id: prometheus # 3rd lst
+  - id: cloudbees-prometheus # 3rd lst
   - id: saml # cap lst
 #  - id: workflow-multibranch # cap lst

@@ -11,5 +11,5 @@ items:
   - "items.yaml"
 variables:
   - "variables.yaml"
-#catalog:
-#  - "plugin-catalog.yaml"
+catalog:
+  - "plugin-catalog.yaml"
