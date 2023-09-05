@@ -5,7 +5,7 @@ unclassified:
     activities:
     - "build"
     - "web"
-    enabled: true
+    enabled: false
     gracePeriod: 120
 kube:
   podTemplatesConfiguration:
