@@ -1,6 +1,12 @@
 unclassified:
   headerLabel:
     text: "${header_label}"
+  hibernationConfiguration:
+    activities:
+    - "build"
+    - "web"
+    enabled: true
+    gracePeriod: 120
 kube:
   podTemplatesConfiguration:
     templates:
