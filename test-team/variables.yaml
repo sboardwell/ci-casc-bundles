@@ -1,4 +1,4 @@
 variables:
   - header_label: Test Team
-  - system_message: v2
+  - system_message: v3
   - mail: x@y

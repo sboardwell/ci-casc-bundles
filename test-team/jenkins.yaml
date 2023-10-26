@@ -7,6 +7,12 @@ unclassified:
     - "web"
     enabled: false
     gracePeriod: 120
+  bundleUpdateTiming:
+    automaticReload: false
+    automaticRestart: true
+    rejectWarnings: true
+    reloadAlwaysOnRestart: false
+    skipNewVersions: false
 kube:
   podTemplatesConfiguration:
     templates:
