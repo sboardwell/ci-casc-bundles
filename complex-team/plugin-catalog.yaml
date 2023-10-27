@@ -1,9 +1,0 @@
-type: "plugin-catalog"
-version: "1"
-name: "my-plugin-catalog2"
-displayName: "My Plugin Catalog"
-configurations:
-  - description: "These are Non-CAP plugins"
-    includePlugins:
-      ansicolor:
-        version: "1.0.2"

@@ -1,5 +1,0 @@
-unclassified:
-  headerLabel:
-    text: "${header_label}"
-advisor:
-  email: "${admin_address}"

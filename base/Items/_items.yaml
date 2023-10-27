@@ -1,9 +1,9 @@
 removeStrategy:
   rbac: SYNC
-  items: NONE
+  items: SYNC
 items:
 - kind: freeStyle
-  name: test-job
+  name: test-job1
   blockBuildWhenDownstreamBuilding: false
   blockBuildWhenUpstreamBuilding: false
   builders:
