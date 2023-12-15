@@ -1,7 +1,9 @@
 apiVersion: "1"
 id: "test-team"
 description: "for testing purposes (version: 2.426.2.2, inheritance: team)"
-version: "3528bfe11934c438cf0ef1a2e52dd39a"
+version: "4844ea2ab9612db86559a967a404b609"
+jcasc:
+  - jcasc.0.team.jenkins.jenkins.yaml
 plugins:
   - plugins.0.team.plugins.plugins.yaml
 variables:
