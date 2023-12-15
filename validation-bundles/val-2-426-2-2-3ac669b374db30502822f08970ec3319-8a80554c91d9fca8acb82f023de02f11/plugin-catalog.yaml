@@ -1,0 +1,10 @@
+# CHECKSUM_PLUGIN_FILES=2-426-2-2-3ac669b374db30502822f08970ec3319-8a80554c91d9fca8acb82f023de02f11
+type: plugin-catalog
+version: "1"
+name: my-plugin-catalog
+displayName: My Plugin Catalog
+configurations:
+  - description: These are Non-CAP plugins for version 2.426.2.2
+    prerequisites:
+      productVersion: '[2.426.2.2]'
+    includePlugins: {}

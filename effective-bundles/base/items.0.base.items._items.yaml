@@ -1,0 +1,20 @@
+removeStrategy:
+  rbac: SYNC
+  items: SYNC
+items:
+- kind: freeStyle
+  name: test-job1
+  blockBuildWhenDownstreamBuilding: false
+  blockBuildWhenUpstreamBuilding: false
+  builders:
+  - shell:
+      command: echo "hi"
+  concurrentBuild: false
+  description: ''
+  disabled: false
+  displayName: test-job
+  scm:
+    none: {}
+  scmCheckoutStrategy:
+    standard: {}
+  label: build

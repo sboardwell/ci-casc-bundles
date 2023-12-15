@@ -1,4 +1,5 @@
-# Rich's super Copyright
+# base
+# sample-controller
 plugins:
   - id: cloudbees-casc-client # cap src
   - id: cloudbees-casc-items-controller # cap src

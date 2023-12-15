@@ -1,0 +1,13 @@
+apiVersion: '1'
+id: 'controller-test'
+description: 'Controller test (version: 2.401.2.6, inheritance: controller-test)'
+version: '5872ddb585440996cb227663365ce1ec'
+jcascMergeStrategy: 'override'
+jcasc:
+  - jcasc.yaml
+plugins:
+  - plugins.yaml
+catalog:
+  - plugin-catalog.yaml
+rbac:
+  - rbac.yaml

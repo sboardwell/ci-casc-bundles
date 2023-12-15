@@ -1,0 +1,14 @@
+apiVersion: "1"
+id: "test-team"
+description: "for testing purposes (version: 2.426.2.2, inheritance: base)"
+version: "9e4b7b7fe33f40a326940754e344ef07"
+jcasc:
+  - jcasc.0.base.jenkins._jenkins.yaml
+plugins:
+  - plugins.0.base.plugins._plugins.yaml
+variables:
+  - variables.0.base.variables._variables.yaml
+catalog:
+  - catalog.plugin-catalog.yaml
+items:
+  - items.0.base.items._items.yaml

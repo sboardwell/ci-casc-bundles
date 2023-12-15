@@ -1,0 +1,14 @@
+apiVersion: "1"
+id: "test-team"
+description: "for testing purposes (version: 2.426.2.2, inheritance: sample-controller)"
+version: "fb550648481670958aac320c99326616"
+jcasc:
+  - jcasc.0.sample-controller.jenkins.jenkins.yaml
+plugins:
+  - plugins.0.sample-controller.plugins.plugins.yaml
+variables:
+  - variables.0.sample-controller.variables.variables.yaml
+catalog:
+  - catalog.plugin-catalog.yaml
+items:
+  - items.0.sample-controller.items.items.yaml

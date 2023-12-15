@@ -1,11 +1,9 @@
+# Rich's super Copyright
 plugins:
-  - id: cloudbees-casc-client # cap lst
-  - id: cloudbees-casc-items-api # cap lst dep
-  - id: cloudbees-casc-items-commons # cap lst dep
-  - id: cloudbees-casc-items-controller # cap lst
-  - id: cloudbees-jenkins-advisor # cap lst
-  - id: configuration-as-code # cap lst
-  - id: git # cap lst
-  - id: managed-master-hibernation # cap lst
-  - id: cloudbees-prometheus # 3rd lst
-  - id: saml # cap lst
+  - id: cloudbees-casc-client # cap src
+  - id: cloudbees-casc-items-controller # cap src
+  - id: cloudbees-jenkins-advisor # cap src
+  - id: cloudbees-prometheus # 3rd src
+  - id: git # cap src
+  - id: managed-master-hibernation # cap src
+  - id: saml # cap src
