@@ -69,13 +69,14 @@ runCurlValidation()
     touch "$summaryLocation"
     echo "Running validation with '$zipLocation', writing to '$jsonLocation"
     set +e
-    curl -sL -X POST -u "admin:$(cat /var/jenkins_home/secrets/initialAdminToken)" \
+    echo "token $(cat /var/jenkins_home/secrets/initialAdminToken)"
+    curl -s -X POST -u "admin:$(cat /var/jenkins_home/secrets/initialAdminToken)" \
         "http://localhost:8080/casc-bundle-mgnt/casc-bundle-validate" \
         --header "Content-type: application/zip" \
         --data-binary "@${zipLocation}" \
         > "${jsonLocation}"
-    set -e
     curlExitCode=$?
+    set -e
     if [ "${curlExitCode}" -eq 0 ]; then
         echo "Curl command successful. Printing resulting json '${jsonLocation}'."
         cat "${jsonLocation}"
