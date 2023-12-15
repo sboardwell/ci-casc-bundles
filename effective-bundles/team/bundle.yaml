@@ -1,7 +1,7 @@
 apiVersion: "1"
 id: "test-team"
 description: "for testing purposes (version: 2.426.2.2, inheritance: team)"
-version: "fa103fac516033f99eb1eec7fb644614"
+version: "27dcd7499b71579094b50a1a84e0a727"
 plugins:
   - plugins.0.team.plugins.plugins.yaml
 variables:
