@@ -7,7 +7,5 @@ jcasc:
   - jcasc.yaml
 plugins:
   - plugins.yaml
-catalog:
-  - plugin-catalog.yaml
 rbac:
   - rbac.yaml
