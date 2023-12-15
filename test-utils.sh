@@ -9,7 +9,7 @@ TEST_RESOURCES_DIR="${WORKSPACE}/test-resources"
 EFFECTIVE_DIR="${WORKSPACE}/effective-bundles"
 VALIDATIONS_DIR="${WORKSPACE}/validation-bundles"
 DELETE_UNKNOWN_BUNDLES="${DELETE_UNKNOWN_BUNDLES:-"true"}"
-CONNECT_MAX_WAIT="${CONNECT_MAX_WAIT:-240}" # 4 mins to connect to the jenkins server
+CONNECT_MAX_WAIT="${CONNECT_MAX_WAIT:-90}" # 4 mins to connect to the jenkins server
 TOKEN_SCRIPT="\
 import hudson.model.User
 import jenkins.security.ApiTokenProperty
