@@ -1,3 +1,5 @@
 # Rich's super Copyright
 plugins:
   - id: cloudbees-hashicorp-vault # cap src
+  - id: cloudbees-casc-client # cap src
+  - id: cloudbees-casc-items-controller # cap src
