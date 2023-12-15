@@ -1,4 +1,4 @@
 variables:
   - header_label: "acme bank"
-  - system_message: v1
+  - system_message: v2
   - mail: x@y
