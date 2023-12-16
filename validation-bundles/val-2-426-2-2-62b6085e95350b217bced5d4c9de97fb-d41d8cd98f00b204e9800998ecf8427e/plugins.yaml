@@ -1,0 +1,6 @@
+# minimum-fail
+plugins:
+  - id: cloudbees-casc-client # cap src
+  # comment this plugin out to fail the effective bundle generation
+  - id: cloudbees-casc-items-controller # cap src
+  - id: cloudbees-hashicorp-vault # cap src

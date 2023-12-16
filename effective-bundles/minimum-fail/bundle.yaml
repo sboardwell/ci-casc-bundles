@@ -1,0 +1,13 @@
+# CHECKSUM_PLUGIN_FILES=2-426-2-2-62b6085e95350b217bced5d4c9de97fb-d41d8cd98f00b204e9800998ecf8427e
+apiVersion: "1"
+id: "test-team"
+description: "for testing purposes (version: 2.426.2.2, inheritance: minimum-fail)"
+version: "59cffbf41b322b8e095b0cb3020ea8c0"
+jcasc:
+  - jcasc.0.minimum-fail.jenkins.jenkins.yaml
+plugins:
+  - plugins.0.minimum-fail.plugins.plugins.yaml
+variables:
+  - variables.0.minimum-fail.variables.variables.yaml
+items:
+  - items.0.minimum-fail.items.items.yaml

@@ -1,7 +1,8 @@
+# CHECKSUM_PLUGIN_FILES=2-426-2-2-95f761005b8c93c4d2d1845ee788fa3a-bf2d813b61ddc5b1bbdb80db1e536644
 apiVersion: "1"
 id: "test-team"
 description: "for testing purposes (version: 2.426.2.2, inheritance: sample-controller)"
-version: "f9b88f9c9770a70ee48db81bc950fb2b"
+version: "57387254757a4bc750ac8f27f694683a"
 jcasc:
   - jcasc.0.sample-controller.jenkins.jenkins.yaml
 plugins:

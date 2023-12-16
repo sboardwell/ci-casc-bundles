@@ -1,7 +1,8 @@
+# CHECKSUM_PLUGIN_FILES=2-426-2-2-95f761005b8c93c4d2d1845ee788fa3a-bf2d813b61ddc5b1bbdb80db1e536644
 apiVersion: "1"
 id: "test-team"
 description: "for testing purposes (version: 2.426.2.2, inheritance: base)"
-version: "fe4587fa201b5f82a67bef69dc3de272"
+version: "e37e1c6e87c8ff1a8026488054603d3a"
 jcasc:
   - jcasc.0.base.jenkins._jenkins.yaml
 plugins:
